@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/loding_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="280px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="400px"
+        android:orientation="vertical"
+        android:layout_width="750px"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="@null"
+            android:layout_marginLeft="16px"
+            android:drawableLeft="@drawable/account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="#9000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="100px"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="750px"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_pwa"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:layout_marginLeft="16px"
+            android:drawableLeft="@drawable/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:background="#9000"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logding"
+        android:layout_gravity="center"
+        android:layout_marginTop="120px"
+        android:background="@drawable/logding"
+        android:layout_width="750px"
+        android:layout_height="110px" />
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/forgot"
+            />
+    </RelativeLayout>
+</LinearLayout>
