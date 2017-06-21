@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/original"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:layout_marginBottom="360px"
+      android:layout_alignParentBottom="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="87px"
+      android:text="吴亦凡"
+      android:textColor="#fff"
+      android:layout_marginLeft="100px"
+      android:textSize="50px"
+      />
+  <RelativeLayout
+      android:layout_marginBottom="167px"
+      android:layout_alignParentBottom="true"
+      android:layout_marginTop="68px"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taking my time"
+        android:textColor="#fff"
+        android:layout_marginLeft="100px"
+        android:textSize="50px"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_signature"
+        android:layout_below="@+id/tv_signature"
+        android:text="step by step"
+        android:textColor="#fff"
+        android:textSize="50px"
+        />
+    <TextView
+        android:id="@+id/tv_coordinates"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="澳门"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff"
+        android:layout_marginRight="108px"
+        android:textSize="50px"
+        />
+    <ImageView
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/coordinates"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="218px"
+        />
+  </RelativeLayout>
+
+
+</RelativeLayout>

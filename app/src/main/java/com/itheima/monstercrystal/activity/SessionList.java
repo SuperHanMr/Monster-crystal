@@ -1,5 +1,6 @@
 package com.itheima.monstercrystal.activity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -13,6 +14,8 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.itheima.monstercrystal.R;
+import com.itheima.monstercrystal.fragment.CircleFragment;
+import com.itheima.monstercrystal.fragment.ContactFragmnet;
 import com.itheima.monstercrystal.fragment.Fragment_info;
 
 /**
@@ -21,23 +24,44 @@ import com.itheima.monstercrystal.fragment.Fragment_info;
 
 public class SessionList extends FragmentActivity {
 
+    private boolean is = true;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().requestFeature(Window.FEATURE_NO_TITLE);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
-                    | WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                    | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(Color.TRANSPARENT);
-            window.setNavigationBarColor(Color.TRANSPARENT);
-        }
         setContentView(R.layout.sessionlist_activity);
         setDefaultFragment();
+        initView();
+    }
+
+    private void initView() {
+        findViewById(R.id.iv_qan).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SessionList.this,CirleActivity.class));
+            }
+        });
+        findViewById(R.id.iv_ren).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SessionList.this,ContactActivity.class));
+            }
+        });
+        findViewById(R.id.iv_info).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (is){
+
+                    startActivity(new Intent(SessionList.this,PromptActivity.class));
+                    is = false;
+                }else {
+                    startActivity(new Intent(SessionList.this,New_PromptActivity.class));
+                    is = true;
+                }
+
+
+            }
+        });
     }
     // 设置Fragment
     private void setDefaultFragment() {

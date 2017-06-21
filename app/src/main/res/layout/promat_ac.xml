@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/chat_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_marginTop="156px"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="张晓"
+        android:textColor="#fff"
+        android:textSize="40px"
+        />
+    <ImageView
+        android:id="@+id/iv_fasong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fasong"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_marginTop="128px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4:20 AM"
+        android:textColor="#fff"
+        android:textSize="60px"
+        />
+    <TextView
+        android:layout_marginTop="55px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4/26 WED"
+        android:background="#0000"
+        android:textSize="50px"
+        />
+
+</LinearLayout>

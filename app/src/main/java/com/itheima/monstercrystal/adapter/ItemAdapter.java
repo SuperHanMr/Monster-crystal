@@ -1,6 +1,7 @@
 package com.itheima.monstercrystal.adapter;
 
 import android.content.Context;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.EventLog;
 import android.util.Log;
@@ -26,6 +27,7 @@ public class ItemAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private final int TYPE_LN = 1;
     private final int TYPE_THE = 2;
     private Context context;
+
 
 
 
@@ -63,8 +65,10 @@ public class ItemAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
+
         int itemViewType = getItemViewType(position);
         if (itemViewType == TYPE_LN){
+
             final MyViewHodler myViewHodler = (MyViewHodler) holder;
 
             myViewHodler.itemView.setOnClickListener(new View.OnClickListener() {

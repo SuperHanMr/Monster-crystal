@@ -4,6 +4,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_def_coversation_portrait.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\bomlight.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\bomlight.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_file_icon_cancel.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_file_icon_cancel.png"
     },
@@ -132,6 +136,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_comment_bg.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\voice_icon.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\voice_icon.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f6bf.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f6bf.png"
     },
@@ -210,6 +218,10 @@
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_voice_input_toggle_hover.9.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_voice_input_toggle_hover.9.png"
+    },
+    {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\yvyinsecletor.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\yvyinsecletor.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f6ab.png",
@@ -328,6 +340,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u270b.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\chat_bg.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\chat_bg.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_follow.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_follow.png"
     },
@@ -408,6 +424,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_audio_toggle_hover.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\light.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\light.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u270c.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u270c.png"
     },
@@ -426,6 +446,10 @@
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f494.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f494.png"
+    },
+    {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\yvyin.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\yvyin.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ext_plugin_location.png",
@@ -820,6 +844,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_setting_friends_delete.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\zhonglight.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\zhonglight.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_real_time_location_exit.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_real_time_location_exit.png"
     },
@@ -1064,6 +1092,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_btn_pub_service_follow_normal.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\hongxian.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\hongxian.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f60a.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f60a.png"
     },
@@ -1094,6 +1126,10 @@
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ext_location_marker.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ext_location_marker.png"
+    },
+    {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\selector.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\selector.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f44f.png",
@@ -1312,12 +1348,12 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ext_locator.png"
     },
     {
-        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_send_voice_two.png",
-        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_send_voice_two.png"
-    },
-    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_def_msg_portrait.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_def_msg_portrait.png"
+    },
+    {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_send_voice_two.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_send_voice_two.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f60c.png",

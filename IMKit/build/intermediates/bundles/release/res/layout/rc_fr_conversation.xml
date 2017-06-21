@@ -3,7 +3,73 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/chat_bg">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="160px"
+            android:layout_height="match_parent"
+            android:background="#0000"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120px"
+                android:background="@drawable/selector" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="102px"
+                android:background="@drawable/light" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="194px"
+                android:background="@drawable/zhonglight" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="191px"
+                android:background="@drawable/bomlight" />
+
+        </LinearLayout>
+        <include
+            android:id="@id/rc_layout_msg_list"
+            layout="@layout/rc_fr_messagelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rc_extension" />
+
+    </LinearLayout>
+
+    <io.rong.imkit.RongExtension
+        android:id="@+id/rc_extension"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:RCStyle="SCE" />
+
+</RelativeLayout>
+
+
+<!-- ******************* 分割线 ********************
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/rc_normal_bg">
+
 
     <include
         android:id="@id/rc_layout_msg_list"
@@ -20,3 +86,78 @@
         app:RCStyle="SCE" />
 
 </RelativeLayout>
+
+
+
+
+
+
+-->
+
+
+
+<!-- 自定义布局  <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/chat_bg">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="160px"
+            android:layout_height="match_parent"
+            android:background="#0000"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120px"
+                android:background="@drawable/selector" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="102px"
+                android:background="@drawable/light" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="194px"
+                android:background="@drawable/zhonglight" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="191px"
+                android:background="@drawable/bomlight" />
+
+        </LinearLayout>
+
+
+        <include
+            android:id="@id/rc_layout_msg_list"
+            layout="@layout/rc_fr_messagelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rc_extension" />
+
+    </LinearLayout>
+
+    <io.rong.imkit.RongExtension
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rc_extension"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        app:RCStyle="SCE" />
+</LinearLayout>-->

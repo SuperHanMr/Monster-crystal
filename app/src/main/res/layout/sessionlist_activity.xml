@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:background="@drawable/loding_bg"
     android:layout_width="match_parent"
@@ -25,10 +25,47 @@
             android:src="@drawable/add"
             />
     </android.support.v7.widget.Toolbar>
+    
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="150px">
+
+        <ImageView
+            android:id="@+id/iv_info"
+            android:layout_marginLeft="405px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wd"
+            android:layout_marginTop="65px"
+           />
+        <ImageView
+            android:id="@+id/iv_qan"
+            android:layout_marginTop="47px"
+            android:layout_marginLeft="295px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qan"
+            />
+
+        <ImageView
+            android:id="@+id/iv_ren"
+            android:layout_marginTop="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ren"
+            android:layout_marginLeft="175px"
+            />
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xin"
+            />
+    </RelativeLayout>>
 
     <FrameLayout
         android:id="@+id/fragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </FrameLayout>
-</LinearLayout>
+        android:layout_height="match_parent"></FrameLayout>
+</com.zhy.autolayout.AutoLinearLayout>

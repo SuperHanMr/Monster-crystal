@@ -3,6 +3,7 @@ package com.itheima.monstercrystal.activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,19 +15,24 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 import com.itheima.monstercrystal.R;
+import com.itheima.monstercrystal.bean.Friend;
 import com.itheima.monstercrystal.bean.LogdingData;
 import com.itheima.monstercrystal.utils.SPUtils;
 import com.itheima.monstercrystal.views.WeiboDialogUtils;
 import com.zhy.autolayout.AutoLayoutActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import io.rong.imkit.RongIM;
 import io.rong.imlib.RongIMClient;
+import io.rong.imlib.model.UserInfo;
 
 /**
  * Created by hanyonghui on 2017/6/9.
  */
 
-public class Landing extends AutoLayoutActivity implements View.OnClickListener {
+public class Landing extends AutoLayoutActivity implements View.OnClickListener, RongIM.UserInfoProvider {
 
     private Dialog mWeiboDialog;
 
@@ -36,6 +42,7 @@ public class Landing extends AutoLayoutActivity implements View.OnClickListener 
     // ID为120
     private String  token2 = "XSzPUWxtNmU39c2f+rWKWQKWiGZecOlxMR9mKsYUo52opHfUFE7CxsLpXnkISFM9dnJrscRP0g+ifmaMzfKkPw==";
     private SPUtils spUtils;
+    private List<Friend> userIdList;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -54,6 +61,7 @@ public class Landing extends AutoLayoutActivity implements View.OnClickListener 
         }
         setContentView(R.layout.loding);
         initView();
+        initUserInfo();
     }
 
     // 找到控件
@@ -114,5 +122,23 @@ public class Landing extends AutoLayoutActivity implements View.OnClickListener 
 
              }
          });
+    }
+
+    private void initUserInfo() {
+        userIdList = new ArrayList<Friend>();
+        userIdList.add(new Friend("110", "郭鑫年", "https://imgsa.baidu.com/forum/w%3D580/sign=6c64d25b3ffae6cd0cb4ab693fb20f9e/954816385343fbf2495e954fba7eca8065388f04.jpg"));//联通图标
+        userIdList.add(new Friend("120", "卢卡", "https://imgsa.baidu.com/forum/w%3D580/sign=41df59612c9759ee4a5060c382fb434e/d19fa01ea8d3fd1f08119f563a4e251f95ca5f51.jpg"));//移动图标
+
+        RongIM.setUserInfoProvider(this, true);
+    }
+
+    @Override
+    public UserInfo getUserInfo(String s) {
+        for (Friend i : userIdList) {
+            if (i.getUserId().equals(s)) {
+                return new UserInfo(i.getUserId(), i.getName(), Uri.parse(i.getPortraitUri()));
+            }
+        }
+        return null;
     }
 }

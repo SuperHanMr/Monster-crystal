@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_contact_portrait"
+            android:layout_marginLeft="40px"
+            android:background="@drawable/as"
+            android:layout_width="90px"
+            android:layout_height="90px" />
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:layout_marginTop="33px"
+            android:layout_toRightOf="@+id/iv_contact_portrait"
+            android:layout_marginLeft="50px"
+            android:textSize="30px"
+            android:text="余大乐"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

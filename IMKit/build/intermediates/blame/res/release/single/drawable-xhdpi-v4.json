@@ -352,16 +352,16 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f3c2.png"
     },
     {
-        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_voice_unread.png",
-        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voice_unread.png"
-    },
-    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u270c.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u270c.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u270f.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u270f.png"
+    },
+    {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_voice_unread.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voice_unread.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f613.png",
@@ -592,6 +592,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u26c4.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\yvyinsecletor.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\yvyinsecletor.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f44c.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f44c.png"
     },
@@ -700,6 +704,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_follow_hover.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\light.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\light.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_notice_loading.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_notice_loading.png"
     },
@@ -798,6 +806,10 @@
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f607.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f607.png"
+    },
+    {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\selector.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\selector.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u2615.png",
@@ -956,6 +968,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f44a.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\zhonglight.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\zhonglight.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_voice_sent_play1.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_voice_sent_play1.png"
     },
@@ -988,8 +1004,16 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f648.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\hongxian.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\hongxian.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_group_cancel_normal.png"
+    },
+    {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\yvyin.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\yvyin.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u26c5.png",
@@ -1172,6 +1196,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f60b.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bomlight.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\bomlight.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_location_item_default.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_location_item_default.png"
     },
@@ -1268,6 +1296,10 @@
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_button_bg.png"
     },
     {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\chat_bg.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\chat_bg.png"
+    },
+    {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_bg_toast.9.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_bg_toast.9.png"
     },
@@ -1318,6 +1350,10 @@
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_rt_loc_other.png",
         "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_rt_loc_other.png"
+    },
+    {
+        "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\voice_icon.png",
+        "source": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\src\\main\\res\\drawable-xhdpi\\voice_icon.png"
     },
     {
         "merged": "D:\\Myandroid_studio\\MonsterCrystal\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ext_plugin_location_pressed.png",
